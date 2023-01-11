@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.usercard-wrapper {
+  display: flex;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 33%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.usercard-wrapper button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.usercard-wrapper p {
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.userlist-wrapper {
+  display: flex;
+  position: relative;
+  gap: 20px;
+}
+
+.userlist-wrapper h4 {
+  text-align: center;
+  width: 100%;
+}
+
+.adduser-wrapper {
+  height: 100px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.adduser-wrapper input {
+  width: 80%;
+  height: 30px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.adduser-wrapper button {
+  margin-top: 5px;
+  background-color: green;
+  color: white;
+  padding: 7px 30px;
+  border: none;
+  width: 80%;
+}
